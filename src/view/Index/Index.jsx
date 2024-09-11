@@ -363,9 +363,9 @@ function Index() {
                              src={bg2}/>
                         <div className='flex items-center relative z-20'>
                             <div className='w-6/12 px-10'>
-                                <p className='font-bold text-3xl'>Digital Health</p>
-                                <p className='font-bold text-3xl'>and Artificial Intelligence </p>
-                                <p className='mt-4 text-md'>JOIN THE CDHAI EMAIL LIST</p>
+                                <p className='font-bold text-3xl'>AI for Health Equity Research Lab</p>
+                                <p className='font-bold text-3xl'>supported by Program for AI Readiness (PAIR)</p>
+                                <p className='mt-4 text-md'>JOIN THE EMAIL LIST</p>
                                 <div
                                     className='w-44 mt-4 btn bg-white p-3 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
                                     style={{color: "#0f2c6e"}}>
