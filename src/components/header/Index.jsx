@@ -19,7 +19,7 @@ function Index() {
         <div className="fixed top-0 z-40 w-full text-white bg-opacity-20 transition-all duration-500" style={{ background: is_scroll ? '#0f2c6e' : "" }}>
             <header className="py-6 px-20 flex">
                 <div className="w-1/12">
-                    <img src={logoaimahead} alt="AI Health Equity Logo" style={{height: '40px', width: 'auto'}}/>
+                    <img src={logoaimahead} alt="AI Health Equity Logo" style={{height: '60px', width: 'auto'}}/>
                 </div>
                 <div className="w-6/12 flex justify-end gap-x-4 items-center">
                     <p style={{fontFamily: 'gentona', fontWeight: 500}}>
