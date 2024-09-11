@@ -8,7 +8,7 @@ import logoaimahead from "../../assets/components/header/aimahead-logo-white-lg.
 function Index() {
 
     return (
-        <footer className='lg:py-10 lg:px-20 p-4' style={{ background: "#0f2c6e" }}>
+        <footer className='lg:py-10 lg:px-20 p-4' style={{ background: "#4aa1d4" }}>
             <div className='block lg:flex'>
                 <div className='w-full lg:w-5/12 mb-8 lg:mb-0 flex justify-center'>
                     <img src={logoaimahead} alt="AI Health Equity Logo" style={{height: '60px', width: 'auto'}}/>
