@@ -174,7 +174,7 @@ function Index() {
                     </div>
                 </div>
                     <div className="relative pb-20 bg-rose-300 bg-opacity-15 overflow-hidden"
-                         style={{background: "#0f2c6e"}}>
+                         style={{background: "#4aa1d4"}}>
                         <img id="bg2" className="absolute w-full h-full -left-48 top-0 z-20 opacity-5 object-contain"
                              src={bg2} alt="Background"/>
                         <div ref={two} className="w-11/12 relative z-20 text-center mx-auto">
@@ -264,7 +264,7 @@ function Index() {
                                         className='mt-4 border-t border-white pt-4 border-opacity-30 right-content-line4'>
                                         <div
                                             className='w-48 btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
-                                            style={{color: 'rgb(0, 45, 114)', fontFamily: 'gentona', fontWeight: 600, fontSize: '18px'}}>
+                                            style={{color: "#4aa1d4", fontFamily: 'gentona', fontWeight: 600, fontSize: '18px'}}>
                                             More About Us <span className='ml-2 transition-all text-yellow-400'>→</span>
                                         </div>
                                     </div>
@@ -307,7 +307,7 @@ function Index() {
                                             <p>Read the latest research news, learn about our affiliated Centers and
                                                 Institutes, and access resources for conducting research.</p>
                                             <p className='mt-4 flex items-center'>
-                                                <span className='text-lg' style={{color: "#002D72"}}>Resources for Researchers</span>
+                                                <span className='text-lg' style={{color: "#4aa1d4"}}>Resources for Researchers</span>
                                                 <span className="animated_circle ml-2" aria-hidden="true">
                                                 <svg xmlns="http://www.w3.org/2000/svg"
                                                      xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -358,7 +358,7 @@ function Index() {
 
                     </div>
 
-                    <div className='px-20 py-20 relative overflow-hidden' style={{background: "#0f2c6e"}}>
+                    <div className='px-20 py-20 relative overflow-hidden' style={{background: "#4aa1d4"}}>
                         <img id="bg3" className="absolute w-full h-full left-40 top-0 z-10 opacity-5 object-cover"
                              src={bg2}/>
                         <div className='flex items-center relative z-20'>
@@ -368,7 +368,7 @@ function Index() {
                                 <p className='mt-4 text-md'>JOIN THE EMAIL LIST</p>
                                 <div
                                     className='w-44 mt-4 btn bg-white p-3 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
-                                    style={{color: "#0f2c6e"}}>
+                                    style={{color: "#4aa1d4"}}>
                                     JOIN NOW<span className='ml-2 transition-all text-yellow-400'>→</span>
                                 </div>
                             </div>
