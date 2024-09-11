@@ -3,14 +3,15 @@ import { useNavigate } from "react-router-dom"
 
 import logo from "../../assets/view/Title_Treatment/2022-9-1101 Digital Health AI Center Horizontal Title Treatment_White.png"
 import tt from "../../assets/view/tt.png"
+import logoaimahead from "../../assets/components/header/aimahead-logo-white-lg.png"
 
 function Index() {
 
     return (
         <footer className='lg:py-10 lg:px-20 p-4' style={{ background: "#0f2c6e" }}>
             <div className='block lg:flex'>
-                <div className='w-full lg:w-5/12 mb-8 lg:mb-0  justify-center'>
-                {/*?    <img src={logo}/>*/}
+                <div className='w-full lg:w-5/12 mb-8 lg:mb-0 flex justify-center'>
+                    <img src={logoaimahead} alt="AI Health Equity Logo" style={{height: '60px', width: 'auto'}}/>
                 </div>
 
                 <div className='w-full lg:w-7/12'>
