@@ -1,34 +1,20 @@
 import { useState, useRef, useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
-import logo from "../../assets/view/Title_Treatment/2022-9-1101 Digital Health AI Center Horizontal Title Treatment_White.png"
 
 import Header from "../../components/header/Index";
 import Footer from "../../components/footer/Index";
 
-import first_bg1 from "../../assets/view/1st_background/bg_image1.jpeg"; // no longer used to satisfy the requirement of logo policy
-import first_bg2 from "../../assets/view/1st_background/bg_image2.jpeg";
-import first_bg3 from "../../assets/view/1st_background/bg_image3.jpg";  // no longer used to satisfy the requirement of logo policy
-import first_bg4 from "../../assets/view/1st_background/bg_image4.jpeg"; // no longer used to satisfy the requirement of logo policy
-import first_bg5 from "../../assets/view/1st_background/bg_image5.jpg";
-import first_bg6 from "../../assets/view/1st_background/bg_image6.jpeg";
 
-import ucsd_bg1 from "../../assets/view/ucsdphotos/11.png";
-import ucsd_bg2 from "../../assets/view/ucsdphotos/22.jpg";
-import ucsd_bg3 from "../../assets/view/ucsdphotos/33.jpg";
-import ucsd_bg4 from "../../assets/view/ucsdphotos/44.jpg";
-import ucsd_bg5 from "../../assets/view/ucsdphotos/55.jpeg";
+import ucsd_bg1 from "../../assets/view/sdsuphotos/11.png";
+import ucsd_bg2 from "../../assets/view/sdsuphotos/22.jpg";
+import ucsd_bg3 from "../../assets/view/sdsuphotos/33.jpg";
+import ucsd_bg4 from "../../assets/view/sdsuphotos/44.jpg";
+import ucsd_bg5 from "../../assets/view/sdsuphotos/55.jpeg";
 
 const bg2 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wIAAgMBAAirR9cAAAAASUVORK5CYII=";
 
-//import bg2 from "../../assets/view/bg2.svg";
-import main from "../../assets/view/main2.jpg";
 import TMedit from "../../assets/view/sdsutwo.png";
 
-import main6 from "../../assets/view/main6.jpg";
-
-import news1 from "../../assets/view/news1.jpeg";
-import news2 from "../../assets/view/news2.jpg";
-import news3 from "../../assets/view/news3.jpg";
 import bIMG_7003_TMedit from "../../assets/view/sdsutwo.png";
 
 import Scrollreveal from "scrollreveal"
@@ -378,76 +364,6 @@ function Index() {
                         </div>
                     </div>
 
-                    {/*<div className='py-10' style={{background: "#f3f3f3"}}>*/}
-                    {/*    <p className='mt-10 text-center text-gray-700 text-5xl font-bold'>News</p>*/}
-                    {/*    <div className='mt-10 flex gap-x-8 px-20'>*/}
-                    {/*        <div>*/}
-                    {/*            /!*<img className='' src={news1} style={{height: '200px', width: 'auto'}}/>*!/*/}
-                    {/*            <p className='text-xs my-4' style={{color: "#002D72"}}>News</p>*/}
-                    {/*            <p className='flex items-center font-bold' style={{color: "#0f2c6e"}}>*/}
-                    {/*                Check Out Our Latest Newsletter!*/}
-                    {/*                <span className="animated_circle ml-2" aria-hidden="true">*/}
-                    {/*                <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"*/}
-                    {/*                     x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24"*/}
-                    {/*                     xmlSpace="preserve">*/}
-                    {/*                    <g className="animated_icon_arrow" fill="none" stroke="#2175FF"*/}
-                    {/*                       strokeWidth="1.5">*/}
-                    {/*                        <path transform="translate(6, 12)"*/}
-                    {/*                              d="M9.0075 2.25H0V3.75H9.0075V6L12 3L9.0075 0V2.25Z"*/}
-                    {/*                              fill="#002D72"></path>*/}
-                    {/*                    </g>*/}
-                    {/*                    <circle className="animated_icon_circle" transform="rotate(-90)" cx="11" cy="11"*/}
-                    {/*                            r="11" fill="transparent" stroke="#2175FF" strokeWidth="1"></circle>*/}
-                    {/*                </svg>*/}
-                    {/*            </span>*/}
-                    {/*            </p>*/}
-                    {/*            <p className='my-2 text-black font-bold'>AI for health equity: navigating the future of*/}
-                    {/*                health care</p>*/}
-                    {/*            <p className='' style={{color: "#31261D"}}>*/}
-                    {/*                TBD*/}
-
-                    {/*            </p>*/}
-                    {/*        </div>*/}
-                    {/*        <div>*/}
-                    {/*            <img className='' src={news2} style={{height: '200px', width: 'auto'}}/>*/}
-                    {/*            <p className='text-xs' style={{color: "#f3f3f3"}}>Highlight</p>*/}
-                    {/*            <p className='font-bold' style={{color: "#0f2c6e"}}>Leading researchers gather to*/}
-                    {/*                advance the promise of digital technologies and AI</p>*/}
-                    {/*            <p className='text-black'>June 8th, 2023</p>*/}
-                    {/*            <p className='text-black'>*/}
-                    {/*                TBD*/}
-                    {/*            </p>*/}
-                    {/*        </div>*/}
-                    {/*        <div>*/}
-                    {/*            /!*<img className='' src={news3} style={{height: '200px', width: 'auto'}}/>*!/*/}
-                    {/*            <p className='text-xs' style={{color: "#f3f3f3"}}>Events</p>*/}
-                    {/*            <p className='font-bold' style={{color: "#0f2c6e"}}>TBD</p>*/}
-                    {/*            <p className='text-black'>*/}
-                    {/*                TBD </p>*/}
-                    {/*        </div>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
-
-                    {/*<div className='px-20 py-20 relative overflow-hidden' style={{background: "#0f2c6e"}}>*/}
-                    {/*    <img id="bg4" className="absolute w-full h-full left-40 top-0 z-10 opacity-5 object-cover"*/}
-                    {/*         src={bg2}/>*/}
-                    {/*    <div className='flex items-center relative z-20'>*/}
-                    {/*        <div className='w-6/12 px-10'>*/}
-                    {/*            <p className='text-xl'>Join Our (TBD)</p>*/}
-                    {/*            <p className='font-bold text-4xl'>Mailing list</p>*/}
-                    {/*            <p className='mt-4 text-md'> newsletter for information about*/}
-                    {/*                upcoming events and more. </p>*/}
-                    {/*            <div*/}
-                    {/*                className='w-44 mt-4 btn bg-white p-3 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'*/}
-                    {/*                style={{color: "#0f2c6e"}}>*/}
-                    {/*                Subscribe now <span className='ml-2 transition-all text-yellow-400'>→</span>*/}
-                    {/*            </div>*/}
-                    {/*        </div>*/}
-                    {/*        <div className='w-6/12'>*/}
-                    {/*            <img className='w-full shadow-primary' src={main6}/>*/}
-                    {/*        </div>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
 
                     <div className='px-20 py-10 relative overflow-hidden' style={{background: "white"}}>
                         <div className='text-center'>

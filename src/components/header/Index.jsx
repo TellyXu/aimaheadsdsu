@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from "react-router-dom"
 
-import logo from "../../assets/view/Title_Treatment/2022-9-1101 Digital Health AI Center Horizontal Title Treatment_White.png"
 import logoaimahead from "../../assets/components/header/aimahead-logo-white-lg.png"
 import "./Index.css"
 function Index() {
@@ -62,14 +61,10 @@ function Index() {
                     {/*
                     <div>
                         <p className="py-1 border-b-2 border-transparent hover:border-yellow-400 hover:border-b-2 hover:border-solid cursor-pointer transition-all">
-                            Join the CDHAI email list
+                            Join the email list
                         </p>
                     </div>
-                    <div className="">
-                        <p className="py-1 w-48 border-b-2 border-transparent hover:border-yellow-400 hover:border-b-2 hover:border-solid cursor-pointer transition-all">
-                            COVID Response & Relief
-                        </p>
-                    </div>
+
                     */}
                     <div>
                         <i className="iconfont icon-search text-2xl hover:text-yellow-400 transition-all cursor-pointer"></i>

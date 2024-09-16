@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from "react-router-dom"
 
-import logo from "../../assets/view/Title_Treatment/2022-9-1101 Digital Health AI Center Horizontal Title Treatment_White.png"
-import tt from "../../assets/view/tt.png"
 import logoaimahead from "../../assets/components/header/aimahead-logo-white-lg.png"
 
 function Index() {
