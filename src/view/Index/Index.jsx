@@ -301,7 +301,7 @@ function Index() {
                                                     bottom: "-10rem"
                                                 }}></div>
                                             </div>
-                                            <p className='ml-4 text-3xl border-b-4 hover:border-transparent text-white border-solid border-yellow-400 font-bold cursor-pointer'>Education</p>
+                                            <p className='ml-4 text-3xl border-b-4 hover:border-transparent text-white border-solid border-yellow-400 font-bold cursor-pointer'>Resources</p>
                                         </div>
                                         <div className='text-left p-8'>
                                             <p>Read the latest research news, learn about our affiliated Centers and

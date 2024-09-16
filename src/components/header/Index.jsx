@@ -23,7 +23,8 @@ function Index() {
                 </div>
                 <div className="w-6/12 flex justify-end gap-x-4 items-center">
                     <p style={{fontFamily: 'gentona', fontWeight: 500}}>
-                        AI for Health Equity Research Lab supported by AIM-AHEAD Program for AI Readiness (PAIR)
+                        AI for Health Equity Research Lab
+                        supported by AIM-AHEAD Program for AI Readiness (PAIR)
                     </p>
                 </div>
 

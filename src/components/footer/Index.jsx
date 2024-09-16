@@ -8,7 +8,7 @@ import logoaimahead from "../../assets/components/header/aimahead-logo-white-lg.
 function Index() {
 
     return (
-        <footer className='lg:py-10 lg:px-20 p-4' style={{ background: "#4aa1d4" }}>
+        <footer className='lg:py-10 lg:px-20 p-4' style={{background: "#4aa1d4"}}>
             <div className='block lg:flex'>
                 <div className='w-full lg:w-5/12 mb-8 lg:mb-0 flex justify-center'>
                     <img src={logoaimahead} alt="AI Health Equity Logo" style={{height: '60px', width: 'auto'}}/>
@@ -16,7 +16,7 @@ function Index() {
 
                 <div className='w-full lg:w-7/12'>
                     <div className='flex flex-col lg:flex-row lg:w-full lg:justify-end flex-wrap gap-6 uppercase'
-                         style={{color: "#78aae0"}}>
+                         style={{color: "#FFF"}}>
 
                         <span className='block w-full text-center lg:w-auto lg:inline'>Contact Us</span>
                         <span className='block w-full text-center lg:w-auto lg:inline'>Sign Up For News</span>
@@ -50,6 +50,8 @@ function Index() {
                 </div>
                 */}
             </div>
+            <span  style={{color: "#FFF"}} className='block w-full text-center lg:w-auto lg:inline'>AIM-AHEAD Coordinating Center is funded by NIH, Agreement No.: 1OT2OD032581-01</span>
+
         </footer>
     )
 }

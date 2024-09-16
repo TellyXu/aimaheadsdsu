@@ -158,15 +158,15 @@
 }
 
 .slide {
-    animation: fade 18s infinite;
+    animation: fade 36s infinite;
 }
 
 .slide:nth-child(1) { animation-delay: 0s; }
-.slide:nth-child(2) { animation-delay: 3s; }
-.slide:nth-child(3) { animation-delay: 6s; }
-.slide:nth-child(4) { animation-delay: 9s; }
-.slide:nth-child(5) { animation-delay: 12s; }
-.slide:nth-child(6) { animation-delay: 15s; }
+.slide:nth-child(2) { animation-delay: 6s; }
+.slide:nth-child(3) { animation-delay: 12s; }
+.slide:nth-child(4) { animation-delay: 18s; }
+.slide:nth-child(5) { animation-delay: 24s; }
+.slide:nth-child(6) { animation-delay: 30s; }
 
 
 
